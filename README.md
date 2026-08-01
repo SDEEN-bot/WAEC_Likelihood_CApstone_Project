@@ -29,7 +29,7 @@ The pipeline covers:
 | Evaluation | ROC-AUC, Average Precision, Confusion Matrix, Classification Report |
 | Visualization | Matplotlib, Seaborn |
 | Model persistence | Joblib |
-| Environment | Google Colab / Jupyter Notebook |
+| Environment | Google Colab |
 
 ## Dataset
 
@@ -97,7 +97,3 @@ Logistic Regression slightly outperformed Random Forest on ROC-AUC and was selec
 - Try gradient boosting models (XGBoost, LightGBM) for comparison
 - Cross-validation instead of a single train/test split for more robust metrics
 - Deploy the final model via a simple API or web app for real-time predictions
-
-## License
-
-Specify your license here (e.g., MIT).
